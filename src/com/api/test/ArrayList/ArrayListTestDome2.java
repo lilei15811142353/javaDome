@@ -8,9 +8,11 @@ package com.api.test.ArrayList;
  */
 public class ArrayListTestDome2 {
     private String name;
+    private int age;
 
-    public ArrayListTestDome2(String name) {
+    public ArrayListTestDome2(String name , int age) {
         this.name = name;
+        this.age = age;
     }
 
     public String getName() {
@@ -19,5 +21,13 @@ public class ArrayListTestDome2 {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
     }
 }
