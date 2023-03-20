@@ -16,6 +16,7 @@ package com.api.test.StringTest;
  * 直接协商双引号，就是字符串对象
  */
 public class Dome1 {
+    
     public static void main(String[] args) {
         // 使用空参构造
         String str1 = new String();//小括号留空说明字符串中什么内容都没有
