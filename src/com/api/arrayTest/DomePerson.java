@@ -1,4 +1,4 @@
-package com.api.test.arrayTest;
+package com.api.arrayTest;
 
 public class DomePerson {
     private String name;

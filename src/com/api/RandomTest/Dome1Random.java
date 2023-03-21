@@ -1,4 +1,4 @@
-package com.api.test.RandomTest;
+package com.api.RandomTest;
 
 import java.util.Random;
 

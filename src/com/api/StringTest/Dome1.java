@@ -1,4 +1,4 @@
-package com.api.test.StringTest;
+package com.api.StringTest;
 
 /**
  * 1.字符串的内容用不可变

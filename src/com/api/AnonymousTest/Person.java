@@ -1,4 +1,4 @@
-package com.api.test.AnonymousTest;
+package com.api.AnonymousTest;
 
 public class Person {
     String name;

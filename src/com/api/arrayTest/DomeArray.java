@@ -1,4 +1,4 @@
-package com.api.test.arrayTest;
+package com.api.arrayTest;
 
 import java.sql.Array;
 import java.util.Arrays;

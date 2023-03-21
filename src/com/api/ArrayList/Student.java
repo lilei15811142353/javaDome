@@ -1,4 +1,4 @@
-package com.api.test.ArrayList;
+package com.api.ArrayList;
 
 public class Student {
     private String name;

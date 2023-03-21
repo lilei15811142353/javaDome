@@ -1,4 +1,4 @@
-package com.api.test.StringTest;
+package com.api.StringTest;
 
 /**
  * 字符串常来那个池，程序当中直接协商的双引号字符串，就在字符串常量池中，

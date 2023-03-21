@@ -1,4 +1,4 @@
-package com.api.test.StringTest;
+package com.api.StringTest;
 
 /**
  * String当中与转喊相关的常用方法

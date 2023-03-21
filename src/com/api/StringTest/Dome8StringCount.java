@@ -1,4 +1,4 @@
-package com.api.test.StringTest;
+package com.api.StringTest;
 
 import java.util.Scanner;
 

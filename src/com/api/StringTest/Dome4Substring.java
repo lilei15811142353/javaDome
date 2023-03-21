@@ -1,4 +1,4 @@
-package com.api.test.StringTest;
+package com.api.StringTest;
 
 /**
  * 字符串的截取方法

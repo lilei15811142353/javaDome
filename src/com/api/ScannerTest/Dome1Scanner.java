@@ -1,4 +1,4 @@
-package com.api.test.ScannerTest;
+package com.api.ScannerTest;
 
 import java.awt.*;
 import java.util.Scanner;

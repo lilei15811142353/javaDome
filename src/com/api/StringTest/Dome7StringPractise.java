@@ -1,4 +1,4 @@
-package com.api.test.StringTest;
+package com.api.StringTest;
 /**
  * 定义一个发放，把数组(1,2,3)按照指定格式拼接成一个字符串，格式参照如下[word#word#word]
  * 

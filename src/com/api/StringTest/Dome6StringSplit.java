@@ -1,4 +1,4 @@
-package com.api.test.StringTest;
+package com.api.StringTest;
 
 /**
  * public String[] split(String str):按照参数的规则，将字符串切分成若干部分

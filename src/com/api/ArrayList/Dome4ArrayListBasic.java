@@ -1,4 +1,4 @@
-package com.api.test.ArrayList;
+package com.api.ArrayList;
 
 import com.sun.org.apache.bcel.internal.generic.NEW;
 
