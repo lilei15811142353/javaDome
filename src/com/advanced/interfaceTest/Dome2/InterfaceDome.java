@@ -1,8 +1,8 @@
 package com.advanced.interfaceTest.Dome2;
 
 /**
- * 接口的默认发放，可以通过接口实现类对象，直接调用
- * 接口的默认发放，也可以被接口实现类进行覆盖重写
+ * 接口的默认方法，可以通过接口实现类对象，直接调用
+ * 接口的默认方法，也可以被接口实现类进行覆盖重写
  */
 public class InterfaceDome {
     public static void main(String[] args) {

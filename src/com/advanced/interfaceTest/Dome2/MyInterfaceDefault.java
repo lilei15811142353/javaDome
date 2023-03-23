@@ -14,7 +14,7 @@ public interface MyInterfaceDefault {
     //新添加的一个抽象发放
 
     // public abstract void methodABs2();
-    //新添加的发放，改成默认方法
+    //新添加的方法，改成默认方法
 
     public default void methodDefault(){
         //这是新添加的默认方法
