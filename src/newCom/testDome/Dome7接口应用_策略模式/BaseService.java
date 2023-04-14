@@ -1,4 +1,4 @@
-package newCom.testDome.Dome7接口应用策略模式;
+package newCom.testDome.Dome7接口应用_策略模式;
 
 abstract class BaseService {
     private ISave iSave;
