@@ -17,5 +17,8 @@ public class MainDome {
         System.out.println(str1.equals(str2));
 
         System.out.println(stu1.getClass() == stu2.getClass());
+
+
+        System.out.println("hello");
     }
 }
