@@ -11,5 +11,21 @@ public class MainDome {
 //        inner.print();
 
         outer.innerPrint();
+        outer.show();
+
+        Outer.Inner3 inner3 = new Outer.Inner3();
+        inner3.print();
+
+        outer.print1();
+
+        outer.print2();
+
+
+        //参数式匿名内部类
+        outer.print3(new Eat(){
+            public void eat(){
+                System.out.println("参数式匿名内部类");
+            }
+        });
     }
 }
