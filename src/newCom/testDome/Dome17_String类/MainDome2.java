@@ -60,6 +60,26 @@ public class MainDome2 {
         System.out.println(Arrays.toString(subStringStr.split("t",2)));
 
         System.out.println("-----------------------");
+        String str1 = "aabbccddabcd123411223344";
+        System.out.println(str1.contains("aa"));
+        System.out.println(str1.indexOf("d1"));
+        System.out.println(str1.indexOf("d1",11));
+        System.out.println(str1.indexOf("d2"));
 
+        System.out.println("-----------------------");
+        String str2 = "1";
+        System.out.println(str2.isEmpty());
+        String str3 = "hsdjdsd12314";
+        System.out.println(str3.length());
+        System.out.println(str3.toLowerCase());
+        System.out.println(str3.toUpperCase());
+
+        String str4  = " hh hhh  ";
+        System.out.println(str4.trim());
+        System.out.println(str4.concat(str3));
+
+        int num1 = 22;
+        String num2 = String.valueOf(num1);
+        System.out.println(num2);
     }
 }
