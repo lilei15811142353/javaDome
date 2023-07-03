@@ -1,0 +1,19 @@
+在实际开发当中，我们经常会使用到字符串连接的操作，如果用String来操作，则使用+来完成字符串的链接操作
+使用Sring链接字符串，代码性能会非常低，因为String的内容不可改变
+解决这个问题的方法是使用SringBuffer
+StringBuffer的内部实现采用字符数组，默认数组的长度为16，超过数组大小时，动态扩充的算法是原来长度*2+2
+所以当我们御宅要添加的数组长度时，建议使用带初始化容量的构造方法来避免动态扩充的次数，从而提高效率
+线程安全的，会影响性能，
+
+常用的操作方法
+public StringBuffer() :构造一个空的StringBuffer对象
+punlic StringBuffer(String str) :将指定的String变为StringBuffer的内容
+publuc StringBuffer(Char Sequence seq) :接受CharSequence接口的实例
+publuc StringBuffer append(数据类型 b) :提供了很多的append()方法，用于进行字符串连接
+public StringBuffer delete(int srart,int end) :删除指定位置的内容
+public int indexOf(String str) :字符串的查询功能
+public StringBuffer insert(int offset,数据类型 b) :在指定位置增加一个内容
+punlic StringBuffer replace(int start,int end,String str) :将指定范围的内容替换成其他内容
+punlic String subString(int start,int end) :截取指定范围的字符串
+public String subString(int start) :字符串截取
+public StringBuffer reverse() :字符串反转
