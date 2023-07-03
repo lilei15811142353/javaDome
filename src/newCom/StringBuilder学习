@@ -1,0 +1,4 @@
+字符串操作--StringBuilder类
+StringBuffer的兄弟StringBuilder：
+一个可变的字符序列，此类提供一个与StringBuffer兼容的API，但不保证同步，该类被设计用作StringBuffer的一个建议替换，用在字符串缓冲区别耽搁线程使用的时候
+(这种情况很普遍)。如果可能，建议优先采用该类，因为再大多数实现中，他比StringBuffer要快
