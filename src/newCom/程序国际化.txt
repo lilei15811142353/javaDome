@@ -1,0 +1,18 @@
+Locale类
+Lcoale对象表示了特定的地理、整只和文化地区。需要Locale来执行其任务的操作称为语言环境敏感的操作，它使用locale为用户量身定制信息。
+例如：
+    显示一个数值就是语言环境敏感的操作，应该根据用户的国家、地区或文化的风俗/窜同来格式化改数值
+    使用此类中的构造方法来创建Locale"
+    Locale(String language)
+    Locale(String language,String country)
+    通过静态方法创建Locale
+    getDefault()
+
+Properties文件：属性文件(配置文件)，内容以键值对的形式存放(key=value)
+ResourceBundle工具类，来绑定属性文件，并指定Locale对象，来自动选择使用哪个属性文件，默认将使用与操作系统相同的语言环境
+    getString()方法来从属性文件中使用key来获取value，
+注意：ResourceBundle工具类是只读的
+
+处理动态文本
+前面的实力读取的内容都是固定的，如果现在假设要想打印这样的信息，"欢迎你，XXX!"，具体的名字不是固定的，那么就要使用动态文本进行程序处理
+进行动态的文本处理，必须使用java.text.MessageFormat类完成。这个类是java.text.Format的子类
