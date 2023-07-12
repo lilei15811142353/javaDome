@@ -1,0 +1,38 @@
+Math类
+Math类包含用于执行基本数学运算的方法，如初等指数，对数，平方根和三角函数
+
+使用Math类可以有两种方式：
+1.直接使用(Math所在的包java.lang为默认引入的包)
+2.使用import static java.lang.Math.abs;静态导入
+
+E ：比任何其他值都接近e(即自然对数的底数)的double值
+PI ：比任何其他值都更接近pi(即圆的周长与直径之比)的double值
+
+staiic double PI 比任何其他值都更接近PI的doublue值
+abs(double a) 返回double值的绝对值
+random()  返回带正号的随机doublue值，该值大于等于0.0且小于1.0
+round(double a) 返回最接近参数并等于某一整部数的double值
+sqrt(double a) 返回正确舍入的double值的正平方根
+
+
+Random类
+Random：此类的是利用与生成伪随机数流
+nextLong() 返回下一个伪随机数的long值
+nextBoolean() 返回下一个伪随机数boolean值
+nextDouble() 返回下一个伪随机数，在0.0和1.0之间的double值
+nextFloat() 返回下一个伪随机数，在0.0和1.0之间的float值
+nextInt() 返回下一个伪随机数，int值
+nextInt() 返回一个伪随机数，在0(包括)和指定值分布的int值
+
+日期操作类
+1.Date类
+    类Date表示特定的瞬间，精确到毫秒，也就是程序运行时的当前时间
+    Date date = new Date(); //实例化Date对象，表示当前时间
+
+2.Calendar类
+Calendar：日历类，使用此类可以将时间精确到毫秒显示
+//两种实例化方法
+Calendar c = Calendar.getInstance();
+Calendar c = new GregorianCalendar();
+
+3.DateFormat类及子类SimpleDateFormat
